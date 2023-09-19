@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dhcp_ietf_1695113844490-pr-trigger-input-set
+  identifier: Build_dhcp_ietf_1695113844490prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dhcp_ietf_1695113844490
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
